@@ -1,4 +1,6 @@
-// Override default variables before the import---->for change sass default variables in bootstrap
+// Override default variables before the import
 
+$font-family-sans-serif: "MyFont","Proxima Nova", "Arial",
+  "Helvetica Neue", sans-serif;
 
-@import '~bootstrap/scss/bootstrap.scss';
+@import "~bootstrap/scss/bootstrap.scss";
