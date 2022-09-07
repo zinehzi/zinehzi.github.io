@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-md sticky-top shadow-sm p-3 mb-5 rounded">
       <div className="container">
         <Link to="/" className="navbar-brand font-brand">
           Zi
@@ -22,7 +22,7 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <NavBar />
         </div>
         <Button className="font-button ms-3">Resume</Button>

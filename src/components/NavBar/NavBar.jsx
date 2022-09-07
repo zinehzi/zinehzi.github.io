@@ -2,9 +2,9 @@ import React from "react";
 import "./NavBar.scss";
 import { Link } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = ({className=""}) => {
   return (
-    <ul className="navbar-nav gap-3">
+    <ul className={`navbar-nav gap-3 ${className}`}>
       <li className="nav-item">
         <Link to="/" className="nav-link active" aria-current="page">
           Home
