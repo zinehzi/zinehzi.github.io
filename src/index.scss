@@ -5,9 +5,19 @@ body {
 }
 
 @font-face {
-  font-family: "MyFont";
+  font-family: "MyFont-1";
   src: local("Proxima Nova Alt Light"),
-  url("./fonts/Proxima-Nova-Alt/Proxima Nova Alt Light.otf") format("opentype");
-  }
-  
+    url("./fonts/Proxima-Nova-Alt/ProximaNovaAlt-Light.otf") format("opentype");
+}
 
+@font-face {
+  font-family: "MyFont-2";
+  src: local("Proxima Nova Regular"),
+    url("./fonts/Proxima-Nova/ProximaNova-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MyFont-3";
+  src: local("Proxima Nova Bold"),
+    url("./fonts/Proxima-Nova/ProximaNova-Bold.otf") format("opentype");
+}
