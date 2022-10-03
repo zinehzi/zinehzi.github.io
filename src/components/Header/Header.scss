@@ -1,9 +1,26 @@
 .font-brand {
-    font-family: "MyFont-2";
-    font-size: 36px;
+  font-family: "MyFont-3";
+  font-size: 36px;
 }
 
-.font-button {
-    font-family: "MyFont-3";
-}
+// .mybtn {
+//   font-family: "MyFont-4";
+//   font-size: 14px;
+// }
 
+.lang {
+  font-size: 36px;
+
+  .EN {
+    &:hover {
+      fill: rgb(141, 0, 235);
+      transition: fill 0.5s;
+    }
+  }
+  .FA {
+    &:hover {
+      fill: #7800c8;
+      transition: fill 0.5s;
+    }
+  }
+}

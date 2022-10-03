@@ -1,0 +1,16 @@
+{
+  "contact-msg-desc1": "Thank you so much for taking the time to message me.",
+  "contact-msg-desc2": "We'll be in touch soon.",
+  "contact-msg-title": "Dear",
+  "contact-sec1-btn1": "Send Message",
+  "contact-sec1-btn2": "Sending...",
+  "contact-sec1-row1": "Name",
+  "contact-sec1-row2": "Email",
+  "contact-sec1-row3": "Subject",
+  "contact-sec1-row4": "Message",
+  "contact-sec1-title": "Get In Touch",
+  "contact-sec1-valid1": "Please enter your name.",
+  "contact-sec1-valid2": "Please enter your email address.",
+  "contact-sec1-valid3": "Please enter a subject.",
+  "contact-sec1-valid4": "Please enter a message."
+}

@@ -1,6 +1,19 @@
 // Override default variables before the import
 
-$font-family-sans-serif: "MyFont-1","MyFont-2", "Arial",
-  "Helvetica Neue", sans-serif;
+$container-max-widths: (
+  sm: 100%,
+  md: 560px,
+  lg: 780px,
+  xl: 1000px,
+  xxl: 1200px,
+);
+
+$font-family-sans-serif: "MyFont", "MyFont-2", "Arial", "Helvetica Neue",
+  sans-serif;
+
+$purple: #8d00eb;
+$primary: $purple;
+
+$link-color: #333333;
 
 @import "~bootstrap/scss/bootstrap.scss";

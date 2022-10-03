@@ -1,32 +1,23 @@
 import React from "react";
 import Icons from "../Icons/Icons";
+import "./SocialMedia.scss";
 
-const SocialMedia = () => {
+const SocialMedia = ({className=""}) => {
   return (
-    <ul className="navbar-nav" style={{marginLeft: "8px"}}>
+    <ul className={`navbar-nav ${className}`}>
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <a className="nav-link" target="blank" href="https://github.com/zinehzi">
           <Icons name="GitHub" />
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <a className="nav-link" target="blank" href="https://www.linkedin.com/in/zineh-ziaraty-a4500869">
           <Icons name="LinkedIn" />
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <a className="nav-link" target="blank" href="https://www.instagram.com/ziaraty.zi/">
           <Icons name="Instagram" />
-        </a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">
-          <Icons name="Twitter" />
-        </a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">
-          <Icons name="FaceBook" />
         </a>
       </li>
     </ul>

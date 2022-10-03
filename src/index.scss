@@ -2,22 +2,51 @@ body {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../public/assets/images/BG.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @font-face {
-  font-family: "MyFont-1";
+  font-family: "MyFont";
   src: local("Proxima Nova Alt Light"),
     url("./fonts/Proxima-Nova-Alt/ProximaNovaAlt-Light.otf") format("opentype");
 }
 
 @font-face {
+  font-family: "MyFont-1";
+  src: local("Proxima Nova Alt Bold"),
+    url("./fonts/Proxima-Nova-Alt/ProximaNovaAlt-Bold.otf") format("opentype");
+}
+
+@font-face {
   font-family: "MyFont-2";
+  src: local("Proxima Nova Alt Thin"),
+    url("./fonts/Proxima-Nova-Alt/ProximaNovaAlt-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MyFont-3";
   src: local("Proxima Nova Regular"),
     url("./fonts/Proxima-Nova/ProximaNova-Regular.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "MyFont-3";
+  font-family: "MyFont-4";
   src: local("Proxima Nova Bold"),
     url("./fonts/Proxima-Nova/ProximaNova-Bold.otf") format("opentype");
 }
+
+@font-face {
+  font-family: "MyFont-5";
+  src: local("Proxima Nova Thin"),
+    url("./fonts/Proxima-Nova/ProximaNova-Thin.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: Shabnam;
+  src: local('Shabnam-Thin.ttf'),
+  url("./fonts/Shabnam/Shabnam-Thin.ttf") format('truetype'),
+}
+

@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.words:before,
+.words:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25vw;
+  height: 18vw;
+  border: 10px solid #eee;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: frame 5s infinite;
+}
+
+@keyframes frame {
+  from {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+.word {
+  font-family: "Monoton", Helvetica, sans-serif;
+  font-size: 10vw;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(7deg, #eee 50%, #8d00eb 0);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.word-1 {
+  position: relative;
+  top: -4px;
+  z-index: 1;
+  /* animation: toLeft 2s ease-out;
+  transform-origin: bottom left; */
+}
+
+/* @keyframes toLeft {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  30%,
+  60% {
+    transform: rotate(-45deg);
+  }
+} */
+
+.word-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .word {
+    line-height: 0.7;
+    z-index: 1;
+    transform-origin: bottom;
+    animation: toUp 5s infinite;
+  }
+}
+
+@keyframes toUp {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(2.4);
+  }
+}
+
+.circle {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #eee;
+  position: absolute;
+  animation: toBottom 5s infinite;
+}
+
+@keyframes toBottom {
+  from {
+    transform: scale(0);
+    top: 0;
+  }
+  to {
+    transform: scale(2);
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .circle {
+    display: none;
+  }
+}
