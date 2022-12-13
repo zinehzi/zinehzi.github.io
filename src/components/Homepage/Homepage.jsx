@@ -42,6 +42,7 @@ const Homepage = () => {
               style={{
                 width: "800px",
               }}
+              alt="HomePage"
             />
           </div>
         </section>

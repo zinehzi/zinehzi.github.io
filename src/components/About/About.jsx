@@ -45,6 +45,7 @@ const About = () => {
                 width: "400px",
                 height: "300px",
               }}
+              alt="About"
             />
           </div>
         </section>

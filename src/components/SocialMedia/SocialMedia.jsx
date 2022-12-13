@@ -11,7 +11,7 @@ const SocialMedia = ({className=""}) => {
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" target="blank" href="https://www.linkedin.com/in/zineh-ziaraty-a4500869">
+        <a className="nav-link" target="blank" href="https://www.linkedin.com/in/zineh-ziaraty/">
           <Icons name="LinkedIn" />
         </a>
       </li>

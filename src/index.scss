@@ -43,10 +43,8 @@ body {
     url("./fonts/Proxima-Nova/ProximaNova-Thin.otf") format("opentype");
 }
 
-
 @font-face {
   font-family: Shabnam;
-  src: local('Shabnam-Thin.ttf'),
-  url("./fonts/Shabnam/Shabnam-Thin.ttf") format('truetype'),
+  src: local("Shabnam-Thin.ttf"),
+    url("./fonts/Shabnam/Shabnam-Thin.ttf") format("truetype");
 }
-
