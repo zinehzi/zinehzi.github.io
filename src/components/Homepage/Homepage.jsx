@@ -4,7 +4,7 @@ import Main from "../Main/Main";
 import Button from "../Button/Button";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import Space from "../Space/Space";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 const Homepage = () => {
   const { t } = useTranslation("Home");
