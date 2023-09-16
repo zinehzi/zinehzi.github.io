@@ -3,7 +3,6 @@ import "./App.scss";
 import Layout from "../Layout/Layout";
 import Homepage from "../Homepage/Homepage";
 import About from "../About/About";
-import MyStory from "../MyStory/MyStory";
 import Portfolio from "../Portfolio/Portfolio";
 import Contact from "../Contact/Contact";
 import ContactMessage from "../ContactMessage/ContactMessage";
@@ -34,7 +33,7 @@ function App() {
             <Route path="/about/my-story" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
-            {/* <Route path="/contact/message" element={<ContactMessage />} /> */}
+            <Route path="/contact/message" element={<ContactMessage />} />
           </Routes>
         </Layout>
       </Router>
